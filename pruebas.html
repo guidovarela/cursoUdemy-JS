@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas JS</title>
+</head>
+<body>
+    
+    <h1 class="mainTitle">Soy el 1er h1</h1>
+    <h1 class="mainTitle">Soy el 2do h1</h1>
+
+    <p class="mainTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias vel ea odit autem, a commodi! Dolor eveniet odit vel obcaecati beatae minima? Eum illo mollitia consectetur natus sunt voluptas?</p>
+    
+
+<script>
+//    const lht1 = document.querySelector(".mainTitle");
+    const lht1 = document.getElementsByClassName('mainTitle');
+    console.log(lht1)
+    for (let i = 0; i < lht1.length; i++) {
+        lht1[i].style.color='red'
+    }
+    //lht1[1].style.color='green'
+</script>
+
+</body>
+</html>
